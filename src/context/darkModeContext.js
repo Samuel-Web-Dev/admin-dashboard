@@ -12,7 +12,7 @@ export const DarkModeContextProvider = ({ children }) => {
 
   return (
     <DarkModeContext.Provider value={{ darkMode: state.darkMode, dispatch }}>
-      {children}
+      {children} 
     </DarkModeContext.Provider>
   );
 };
